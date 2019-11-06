@@ -13,8 +13,7 @@ public func routes(_ router: Router) throws {
     }
     
     // Another router
-    router.get("another") {
-        req in
+    router.get("another") { req in
         return "Here's another endpoint!"
     }
 
